@@ -15,6 +15,28 @@ The project explores how Artificial Intelligence (AI) can support routine admini
 
 The portfolio contains ten structured AI prompts designed to support the complete flight booking process, starting from the initial passenger booking request and ending with electronic ticket delivery and booking closure.
 
+## Portfolio Navigation
+
+| Document | Description |
+|---|---|
+| [P01 – Booking Request Intake](prompts/P01.md) | Initial booking request |
+| [P02 – Passenger Detail Extraction](prompts/P02.md) | Passenger information extraction |
+| [P03 – Passenger Information Validation](prompts/P03.md) | Passenger detail validation |
+| [P04 – Flight Availability Checking](prompts/P04.md) | Flight availability |
+| [P05 – Fare Quotation and Comparison](prompts/P05.md) | Fare comparison |
+| [P06 – Passenger Quotation and Approval](prompts/P06.md) | Passenger approval |
+| [P07 – Flight Booking](prompts/P07.md) | Reservation creation |
+| [P08 – Booking Verification](prompts/P08.md) | Booking quality assurance |
+| [P09 – Ticket Issuance](prompts/P09.md) | Electronic ticket issuance |
+| [P10 – Ticket Delivery](prompts/P10.md) | Ticket delivery and closure |
+
+### Additional Documentation
+
+- [Flight Booking Workflow](workflow.md)
+- [AI Workflow Evaluation](evaluation.md)
+- [References](references.md)
+
+
 ## 2. AA Aviation Sdn Bhd – Company Background
 
 AA Aviation Sdn Bhd is the selected business case for this AI prompt engineering project.
