@@ -99,8 +99,85 @@ To improve the proposed AI solution, AA Aviation Sdn Bhd should consider the fol
 5. **Human Verification:** Introduce mandatory employee checks before important booking decisions and ticket issuance.
 
 6. **Continuous Evaluation:** Review AI-generated outputs regularly and update prompts when business procedures change.
+7. 
+# 7. Testing Methodology
 
-## 7. Overall Evaluation
+## 7.1 Testing Approach
+
+A scenario-based testing approach was selected to evaluate the effectiveness, accuracy, consistency and reliability of the ten AI prompts developed for AA Aviation Sdn Bhd.
+
+The testing process uses fictional flight booking scenarios to simulate realistic customer booking requests. Each prompt is tested using relevant input information, and its output is assessed against predefined acceptance criteria.
+
+The purpose of testing is to identify errors, missing information, unsupported assumptions and areas requiring improvement before the prompts are considered suitable for operational use.
+
+## 7.2 Testing Procedure
+
+The following procedure is used:
+
+1. Prepare a fictional flight booking scenario with passenger and travel information.
+2. Enter the relevant information into the corresponding AI prompt.
+3. Generate the AI response.
+4. Compare the response against the expected output and acceptance criteria.
+5. Identify missing information, inaccuracies or unsupported assumptions.
+6. Record the test result as Pass or Fail.
+7. Revise the prompt where necessary and conduct a retest.
+
+## 7.3 Testing Criteria
+
+Each prompt is assessed using the following criteria:
+
+| Testing Criteria | Expected Outcome |
+|---|---|
+| Accuracy | Information is correctly extracted and processed. |
+| Completeness | All required information is included. |
+| Consistency | Outputs follow the requested structure and instructions. |
+| Reliability | The prompt avoids unsupported assumptions. |
+| Error handling | Missing or unclear information is flagged. |
+| Human oversight | Important decisions are referred to authorised staff. |
+
+## 7.4 Test Scenarios
+
+The following scenarios are used to assess the ten prompts:
+
+| Test ID | Testing Scenario | Expected Result |
+|---|---|---|
+| T01 | Customer submits a flight booking request. | Booking details are organised correctly. |
+| T02 | Passenger provides personal and travel information. | Relevant passenger details are extracted. |
+| T03 | Passenger submits incomplete information. | Missing information is identified. |
+| T04 | Flight availability information is reviewed. | Availability is checked using verified information. |
+| T05 | Airline fare and baggage conditions are reviewed. | Unverified fare and baggage details are flagged. |
+| T06 | Customer receives a fare quotation. | A clear and accurate quotation is prepared. |
+| T07 | Booking requires customer approval. | Approval status is clearly identified. |
+| T08 | Booking information is prepared for ticket issuance. | Required booking information is organised. |
+| T09 | Ticket information undergoes quality checking. | Errors and inconsistencies are identified. |
+| T10 | Final ticket and itinerary are prepared for delivery. | Final booking information is checked before delivery. |
+
+## 7.5 Testing Results and Prompt Improvements
+
+Testing should document both successful outputs and identified weaknesses.
+
+One important improvement involved fare and baggage information. An earlier version of the fare quotation prompt could infer a baggage allowance without verified airline information.
+
+The prompt was revised to instruct the AI to identify unknown baggage information as "UNKNOWN – airline confirmation required" rather than making an unsupported assumption.
+
+This improvement demonstrates how testing can identify weaknesses in AI-generated outputs and how prompt refinement can improve reliability.
+
+## 7.6 Testing Limitations
+
+The testing uses fictional booking scenarios and simulated AI outputs. It does not represent a live integration with airline reservation systems or Global Distribution Systems (GDS).
+
+Actual flight availability, airline fares, baggage allowances, passenger identity documents and payment information must be verified through authorised sources.
+
+Human supervision remains necessary for fare confirmation, customer approval, payment verification and final ticket issuance.
+
+## 7.7 Testing Conclusion
+
+The scenario-based testing approach provides a structured method for evaluating the ten AI prompts. It helps identify errors, improve prompt instructions and establish appropriate human checkpoints.
+
+Although the prompts can support routine administrative activities, they should be treated as decision-support tools rather than replacements for trained aviation personnel.
+
+
+## 8. Overall Evaluation
 
 Overall, the proposed ten-prompt AI workflow demonstrates how generative AI can support administrative activities within the flight booking process at AA Aviation Sdn Bhd.
 
@@ -110,7 +187,7 @@ However, the effectiveness of the solution depends on the accuracy of the inform
 
 The proposed solution should therefore be considered an AI-assisted administrative framework rather than a fully automated flight booking system.
 
-## 8. Conclusion
+## 9. Conclusion
 
 The evaluation indicates that AI prompt engineering has potential to improve efficiency, consistency and information management in AA Aviation Sdn Bhd's flight booking workflow.
 
